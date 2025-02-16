@@ -374,6 +374,12 @@
         <mxCell id="_wixlI6H181-CO-yWQSW-140" value="用户" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-138">
           <mxGeometry y="60" width="140" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-144" value="&lt;ol&gt;&lt;li&gt;二进制文件的存储（图片，PDF）直接存放到应用系统磁盘还是单独的对象服务？&lt;/li&gt;&lt;li&gt;身份证是否需要验真？如果需要，是三要素还是而要素？计划用哪家接口？&lt;/li&gt;&lt;li&gt;Value 3&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="880" width="340" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-145" value="问题：" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="870" width="100" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
