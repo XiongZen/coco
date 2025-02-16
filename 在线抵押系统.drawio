@@ -365,6 +365,15 @@
         <mxCell id="_wixlI6H181-CO-yWQSW-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.01;entryY=0.652;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="_wixlI6H181-CO-yWQSW-71" target="_wixlI6H181-CO-yWQSW-73">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-138" value="框架基础上调整" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="850" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-139" value="机构" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-138">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-140" value="用户" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-138">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
