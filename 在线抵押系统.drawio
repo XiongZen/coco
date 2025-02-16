@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Page-1" id="XCKMYUcRcU-a-T-ucVb1">
-    <mxGraphModel dx="1674" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1674" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,7 +37,7 @@
           <mxGeometry y="270" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_wixlI6H181-CO-yWQSW-5" value="字典类型（sys_dict_type)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="40" width="165" height="300" as="geometry" />
+          <mxGeometry x="640" y="40" width="165" height="390" as="geometry" />
         </mxCell>
         <mxCell id="_wixlI6H181-CO-yWQSW-6" value="车辆类型" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-5">
           <mxGeometry y="30" width="165" height="30" as="geometry" />
@@ -51,13 +51,13 @@
         <mxCell id="_wixlI6H181-CO-yWQSW-13" value="品牌" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-5">
           <mxGeometry y="120" width="165" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_wixlI6H181-CO-yWQSW-14" value="号牌种类" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-5">
+        <mxCell id="_wixlI6H181-CO-yWQSW-14" value="号牌种类" style="text;strokeColor=none;fillColor=#97D077;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-5">
           <mxGeometry y="150" width="165" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_wixlI6H181-CO-yWQSW-51" value="登记状态" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-5">
           <mxGeometry y="180" width="165" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_wixlI6H181-CO-yWQSW-71" value="身份证类型" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-5">
+        <mxCell id="_wixlI6H181-CO-yWQSW-71" value="身份证类型" style="text;strokeColor=none;fillColor=#97D077;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-5">
           <mxGeometry y="210" width="165" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_wixlI6H181-CO-yWQSW-49" value="办理渠道" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-5">
@@ -65,6 +65,15 @@
         </mxCell>
         <mxCell id="_wixlI6H181-CO-yWQSW-50" value="办理业务类型" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-5">
           <mxGeometry y="270" width="165" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-89" value="抵押任务状态" style="text;strokeColor=none;fillColor=#97D077;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-5">
+          <mxGeometry y="300" width="165" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-116" value="邮寄状态" style="text;strokeColor=none;fillColor=#97D077;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-5">
+          <mxGeometry y="330" width="165" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-130" value="归档状态" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-5">
+          <mxGeometry y="360" width="165" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_wixlI6H181-CO-yWQSW-9" value="字典数据（sys_dict_data)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="840" y="40" width="160" height="120" as="geometry" />
@@ -148,7 +157,7 @@
           <mxGeometry y="120" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_wixlI6H181-CO-yWQSW-56" value="抵押合同&lt;div&gt;(vehicle_mortgage_contract)&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="600" width="210" height="270" as="geometry" />
+          <mxGeometry x="250" y="600" width="210" height="540" as="geometry" />
         </mxCell>
         <mxCell id="_wixlI6H181-CO-yWQSW-57" value="id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-56">
           <mxGeometry y="30" width="210" height="30" as="geometry" />
@@ -162,17 +171,44 @@
         <mxCell id="_wixlI6H181-CO-yWQSW-62" value="vehicle_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-56">
           <mxGeometry y="120" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_wixlI6H181-CO-yWQSW-61" value="vehicle_owner_name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-56">
+        <mxCell id="_wixlI6H181-CO-yWQSW-61" value="owner_name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-56">
           <mxGeometry y="150" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_wixlI6H181-CO-yWQSW-70" value="vehicle_owner_phone" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-56">
+        <mxCell id="_wixlI6H181-CO-yWQSW-70" value="owner_phone" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-56">
           <mxGeometry y="180" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_wixlI6H181-CO-yWQSW-68" value="vehicle_owner_id_type(身份证类型）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-56">
+        <mxCell id="_wixlI6H181-CO-yWQSW-68" value="owner_id_type(身份证类型）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-56">
           <mxGeometry y="210" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_wixlI6H181-CO-yWQSW-69" value="vehicle_owner_id_code" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-56">
+        <mxCell id="_wixlI6H181-CO-yWQSW-69" value="owner_id_code" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-56">
           <mxGeometry y="240" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-75" value="owner_agent_name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-56">
+          <mxGeometry y="270" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-78" value="owner_agent_phone" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-56">
+          <mxGeometry y="300" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-77" value="owner_agent_id_type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-56">
+          <mxGeometry y="330" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-79" value="owner_agent_id_code" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-56">
+          <mxGeometry y="360" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-83" value="mortgagee" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-56">
+          <mxGeometry y="390" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-84" value="mortgagee_agent_id_code" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-56">
+          <mxGeometry y="420" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-82" value="mortgagee_agent_id_type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-56">
+          <mxGeometry y="450" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-81" value="mortgagee_agent_phone" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-56">
+          <mxGeometry y="480" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-80" value="mortgagee_agent_name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-56">
+          <mxGeometry y="510" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_wixlI6H181-CO-yWQSW-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_wixlI6H181-CO-yWQSW-40" target="_wixlI6H181-CO-yWQSW-58">
           <mxGeometry relative="1" as="geometry" />
@@ -198,6 +234,136 @@
         </mxCell>
         <mxCell id="_wixlI6H181-CO-yWQSW-74" value="&lt;table class=&quot;NormalTable&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width=&quot;70&quot; style=&quot;border-left:solid 1px #000000;border-bottom:solid 1px #000000;border-right:solid 1px #000000;border-top:solid 1px #000000;&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;序号 &lt;/span&gt;&lt;/td&gt;&lt;td width=&quot;236&quot; style=&quot;border-left:solid 1px #000000;border-bottom:solid 1px #000000;border-right:solid 1px #000000;border-top:solid 1px #000000;&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;号牌种类 &lt;/span&gt;&lt;/td&gt;&lt;td width=&quot;141&quot; style=&quot;border-left:solid 1px #000000;border-bottom:solid 1px #000000;border-right:solid 1px #000000;border-top:solid 1px #000000;&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;代码值&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width=&quot;70&quot; style=&quot;border-left:solid 1px #000000;border-bottom:solid 1px #000000;border-right:solid 1px #000000;border-top:solid 1px #000000;&quot;&gt;&lt;span class=&quot;fontstyle2&quot;&gt;1 &lt;/span&gt;&lt;/td&gt;&lt;td width=&quot;236&quot; style=&quot;border-left:solid 1px #000000;border-bottom:solid 1px #000000;border-right:solid 1px #000000;border-top:solid 1px #000000;&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;大型汽车 &lt;/span&gt;&lt;/td&gt;&lt;td width=&quot;141&quot; style=&quot;border-left:solid 1px #000000;border-bottom:solid 1px #000000;border-right:solid 1px #000000;border-top:solid 1px #000000;&quot;&gt;&lt;span class=&quot;fontstyle2&quot;&gt;01&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width=&quot;70&quot; style=&quot;border-left:solid 1px #000000;border-bottom:solid 1px #000000;border-right:solid 1px #000000;border-top:solid 1px #000000;&quot;&gt;&lt;span class=&quot;fontstyle2&quot;&gt;2 &lt;/span&gt;&lt;/td&gt;&lt;td width=&quot;236&quot; style=&quot;border-left:solid 1px #000000;border-bottom:solid 1px #000000;border-right:solid 1px #000000;border-top:solid 1px #000000;&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;小型汽车 &lt;/span&gt;&lt;/td&gt;&lt;td width=&quot;141&quot; style=&quot;border-left:solid 1px #000000;border-bottom:solid 1px #000000;border-right:solid 1px #000000;border-top:solid 1px #000000;&quot;&gt;&lt;span class=&quot;fontstyle2&quot;&gt;02&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width=&quot;70&quot; style=&quot;border-left:solid 1px #000000;border-bottom:solid 1px #000000;border-right:solid 1px #000000;border-top:solid 1px #000000;&quot;&gt;&lt;span class=&quot;fontstyle2&quot;&gt;3 &lt;/span&gt;&lt;/td&gt;&lt;td width=&quot;236&quot; style=&quot;border-left:solid 1px #000000;border-bottom:solid 1px #000000;border-right:solid 1px #000000;border-top:solid 1px #000000;&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;使馆汽车 &lt;/span&gt;&lt;/td&gt;&lt;td width=&quot;141&quot; style=&quot;border-left:solid 1px #000000;border-bottom:solid 1px #000000;border-right:solid 1px #000000;border-top:solid 1px #000000;&quot;&gt;&lt;span class=&quot;fontstyle2&quot;&gt;03&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width=&quot;70&quot; style=&quot;border-left:solid 1px #000000;border-bottom:solid 1px #000000;border-right:solid 1px #000000;border-top:solid 1px #000000;&quot;&gt;&lt;span class=&quot;fontstyle2&quot;&gt;4 &lt;/span&gt;&lt;/td&gt;&lt;td width=&quot;236&quot; style=&quot;border-left:solid 1px #000000;border-bottom:solid 1px #000000;border-right:solid 1px #000000;border-top:solid 1px #000000;&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;领馆汽车 &lt;/span&gt;&lt;/td&gt;&lt;td width=&quot;141&quot; style=&quot;border-left:solid 1px #000000;border-bottom:solid 1px #000000;border-right:solid 1px #000000;border-top:solid 1px #000000;&quot;&gt;&lt;span class=&quot;fontstyle2&quot;&gt;04&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width=&quot;70&quot; style=&quot;border-left:solid 1px #000000;border-bottom:solid 1px #000000;border-right:solid 1px #000000;border-top:solid 1px #000000;&quot;&gt;&lt;span class=&quot;fontstyle2&quot;&gt;5 &lt;/span&gt;&lt;/td&gt;&lt;td width=&quot;236&quot; style=&quot;border-left:solid 1px #000000;border-bottom:solid 1px #000000;border-right:solid 1px #000000;border-top:solid 1px #000000;&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;境外汽车 &lt;/span&gt;&lt;/td&gt;&lt;td width=&quot;141&quot; style=&quot;border-left:solid 1px #000000;border-bottom:solid 1px #000000;border-right:solid 1px #000000;border-top:solid 1px #000000;&quot;&gt;&lt;span class=&quot;fontstyle2&quot;&gt;05&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width=&quot;70&quot; style=&quot;border-left:solid 1px #000000;border-bottom:solid 1px #000000;border-right:solid 1px #000000;border-top:solid 1px #000000;&quot;&gt;&lt;span class=&quot;fontstyle2&quot;&gt;6 &lt;/span&gt;&lt;/td&gt;&lt;td width=&quot;236&quot; style=&quot;border-left:solid 1px #000000;border-bottom:solid 1px #000000;border-right:solid 1px #000000;border-top:solid 1px #000000;&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;外籍汽车 &lt;/span&gt;&lt;/td&gt;&lt;td width=&quot;141&quot; style=&quot;border-left:solid 1px #000000;border-bottom:solid 1px #000000;border-right:solid 1px #000000;border-top:solid 1px #000000;&quot;&gt;&lt;span class=&quot;fontstyle2&quot;&gt;06&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width=&quot;70&quot; style=&quot;border-left:solid 1px #000000;border-bottom:solid 1px #000000;border-right:solid 1px #000000;border-top:solid 1px #000000;&quot;&gt;&lt;span class=&quot;fontstyle2&quot;&gt;7 &lt;/span&gt;&lt;/td&gt;&lt;td width=&quot;236&quot; style=&quot;border-left:solid 1px #000000;border-bottom:solid 1px #000000;border-right:solid 1px #000000;border-top:solid 1px #000000;&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;普通摩托车 &lt;/span&gt;&lt;/td&gt;&lt;td width=&quot;141&quot; style=&quot;border-left:solid 1px #000000;border-bottom:solid 1px #000000;border-right:solid 1px #000000;border-top:solid 1px #000000;&quot;&gt;&lt;span class=&quot;fontstyle2&quot;&gt;07&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width=&quot;70&quot; style=&quot;border-left:solid 1px #000000;border-bottom:solid 1px #000000;border-right:solid 1px #000000;border-top:solid 1px #000000;&quot;&gt;&lt;span class=&quot;fontstyle2&quot;&gt;8 &lt;/span&gt;&lt;/td&gt;&lt;td width=&quot;236&quot; style=&quot;border-left:solid 1px #000000;border-bottom:solid 1px #000000;border-right:solid 1px #000000;border-top:solid 1px #000000;&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;轻便摩托车 &lt;/span&gt;&lt;/td&gt;&lt;td width=&quot;141&quot; style=&quot;border-left:solid 1px #000000;border-bottom:solid 1px #000000;border-right:solid 1px #000000;border-top:solid 1px #000000;&quot;&gt;&lt;span class=&quot;fontstyle2&quot;&gt;08&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width=&quot;70&quot; style=&quot;border-left:solid 1px #000000;border-bottom:solid 1px #000000;border-right:solid 1px #000000;border-top:solid 1px #000000;&quot;&gt;&lt;span class=&quot;fontstyle2&quot;&gt;9 &lt;/span&gt;&lt;/td&gt;&lt;td width=&quot;236&quot; style=&quot;border-left:solid 1px #000000;border-bottom:solid 1px #000000;border-right:solid 1px #000000;border-top:solid 1px #000000;&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;挂车 &lt;/span&gt;&lt;/td&gt;&lt;td width=&quot;141&quot; style=&quot;border-left:solid 1px #000000;border-bottom:solid 1px #000000;border-right:solid 1px #000000;border-top:solid 1px #000000;&quot;&gt;&lt;span class=&quot;fontstyle2&quot;&gt;15&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width=&quot;70&quot; style=&quot;border-left:solid 1px #000000;border-bottom:solid 1px #000000;border-right:solid 1px #000000;border-top:solid 1px #000000;&quot;&gt;&lt;span class=&quot;fontstyle2&quot;&gt;10 &lt;/span&gt;&lt;/td&gt;&lt;td width=&quot;236&quot; style=&quot;border-left:solid 1px #000000;border-bottom:solid 1px #000000;border-right:solid 1px #000000;border-top:solid 1px #000000;&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;香港入出境车 &lt;/span&gt;&lt;/td&gt;&lt;td width=&quot;141&quot; style=&quot;border-left:solid 1px #000000;border-bottom:solid 1px #000000;border-right:solid 1px #000000;border-top:solid 1px #000000;&quot;&gt;&lt;span class=&quot;fontstyle2&quot;&gt;26&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width=&quot;70&quot; style=&quot;border-left:solid 1px #000000;border-bottom:solid 1px #000000;border-right:solid 1px #000000;border-top:solid 1px #000000;&quot;&gt;&lt;span class=&quot;fontstyle2&quot;&gt;11 &lt;/span&gt;&lt;/td&gt;&lt;td width=&quot;236&quot; style=&quot;border-left:solid 1px #000000;border-bottom:solid 1px #000000;border-right:solid 1px #000000;border-top:solid 1px #000000;&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;澳门入出境车 &lt;/span&gt;&lt;/td&gt;&lt;td width=&quot;141&quot; style=&quot;border-left:solid 1px #000000;border-bottom:solid 1px #000000;border-right:solid 1px #000000;border-top:solid 1px #000000;&quot;&gt;&lt;span class=&quot;fontstyle2&quot;&gt;27&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width=&quot;70&quot; style=&quot;border-left:solid 1px #000000;border-bottom:solid 1px #000000;border-right:solid 1px #000000;border-top:solid 1px #000000;&quot;&gt;&lt;span class=&quot;fontstyle2&quot;&gt;12 &lt;/span&gt;&lt;/td&gt;&lt;td width=&quot;236&quot; style=&quot;border-left:solid 1px #000000;border-bottom:solid 1px #000000;border-right:solid 1px #000000;border-top:solid 1px #000000;&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;大型新能源汽车 &lt;/span&gt;&lt;/td&gt;&lt;td width=&quot;141&quot; style=&quot;border-left:solid 1px #000000;border-bottom:solid 1px #000000;border-right:solid 1px #000000;border-top:solid 1px #000000;&quot;&gt;&lt;span class=&quot;fontstyle2&quot;&gt;51&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width=&quot;70&quot; style=&quot;border-left:solid 1px #000000;border-bottom:solid 1px #000000;border-right:solid 1px #000000;border-top:solid 1px #000000;&quot;&gt;&lt;span class=&quot;fontstyle2&quot;&gt;13 &lt;/span&gt;&lt;/td&gt;&lt;td width=&quot;236&quot; style=&quot;border-left:solid 1px #000000;border-bottom:solid 1px #000000;border-right:solid 1px #000000;border-top:solid 1px #000000;&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;小型新能源汽车 &lt;/span&gt;&lt;/td&gt;&lt;td width=&quot;141&quot; style=&quot;border-left:solid 1px #000000;border-bottom:solid 1px #000000;border-right:solid 1px #000000;border-top:solid 1px #000000;&quot;&gt;&lt;span class=&quot;fontstyle2&quot;&gt;52&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; &#xa;&lt;br style=&quot;font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;&quot;&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1080" y="330" width="500" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-85" value="抵押任务&lt;div&gt;(vehicle_mortgage_task)&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1200" width="140" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-86" value="id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-85">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-87" value="task_code" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-85">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-103" value="order_code" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-85">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-88" value="task_begin_time" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-85">
+          <mxGeometry y="120" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-99" value="assigner(分配人）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-85">
+          <mxGeometry y="150" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-100" value="task_staus" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-85">
+          <mxGeometry y="180" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-101" value="task_recipient(任务人）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-85">
+          <mxGeometry y="210" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-102" value="task_process" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-85">
+          <mxGeometry y="240" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-95" value="&lt;ol&gt;&lt;li&gt;待分配&lt;/li&gt;&lt;li&gt;待接收&lt;/li&gt;&lt;li&gt;已认领&lt;/li&gt;&lt;li&gt;拒单&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="700" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-98" value="抵押任务状态" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="680" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_wixlI6H181-CO-yWQSW-40" target="_wixlI6H181-CO-yWQSW-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-105" value="权证邮寄信息&lt;div&gt;(vehicle_warrant_mail_info)&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1200" width="210" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-106" value="id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-105">
+          <mxGeometry y="30" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-125" value="archive_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-105">
+          <mxGeometry y="60" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-107" value="tracking_number（快递单号）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-105">
+          <mxGeometry y="90" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-108" value="courier_company（快递公司）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-105">
+          <mxGeometry y="120" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-109" value="sender" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-105">
+          <mxGeometry y="150" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-110" value="sender_phone" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-105">
+          <mxGeometry y="180" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-111" value="sender_address" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-105">
+          <mxGeometry y="210" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-112" value="recipient" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-105">
+          <mxGeometry y="240" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-113" value="recipient_phone" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-105">
+          <mxGeometry y="270" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-114" value="recipient_address" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-105">
+          <mxGeometry y="300" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-115" value="mail_status" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-105">
+          <mxGeometry y="330" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-117" value="&lt;ol&gt;&lt;li&gt;已签收&lt;/li&gt;&lt;li&gt;拒签&lt;/li&gt;&lt;li&gt;其他&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="700" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-119" value="邮寄状态" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1275" y="680" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-121" value="权证归档信息&lt;div&gt;(vehicle_warrant_archive_info)&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1200" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-122" value="id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-121">
+          <mxGeometry y="30" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-123" value="order_code" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-121">
+          <mxGeometry y="60" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-124" value="task_code" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-121">
+          <mxGeometry y="90" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-128" value="archive_status" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_wixlI6H181-CO-yWQSW-121">
+          <mxGeometry y="120" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_wixlI6H181-CO-yWQSW-122" target="_wixlI6H181-CO-yWQSW-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_wixlI6H181-CO-yWQSW-87" target="_wixlI6H181-CO-yWQSW-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-131" value="字典绿色表示已明确数值" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="270" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="_wixlI6H181-CO-yWQSW-14" target="_wixlI6H181-CO-yWQSW-74">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1040" y="205" />
+              <mxPoint x="1040" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="_wixlI6H181-CO-yWQSW-89" target="_wixlI6H181-CO-yWQSW-98">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="880" y="355" />
+              <mxPoint x="880" y="695" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="_wixlI6H181-CO-yWQSW-116" target="_wixlI6H181-CO-yWQSW-117">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="850" y="385" />
+              <mxPoint x="850" y="800" />
+              <mxPoint x="1310" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wixlI6H181-CO-yWQSW-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.01;entryY=0.652;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="_wixlI6H181-CO-yWQSW-71" target="_wixlI6H181-CO-yWQSW-73">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
