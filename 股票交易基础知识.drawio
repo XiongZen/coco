@@ -149,10 +149,10 @@
           <mxGeometry x="670" y="20" width="239.99999999999955" height="1020" as="geometry" />
         </mxCell>
         <mxCell id="jQtlUSDWuj2KYqsU9cgf-51" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-180;" vertex="1" parent="jQtlUSDWuj2KYqsU9cgf-35">
-          <mxGeometry x="23" y="50" width="50" height="365" as="geometry" />
+          <mxGeometry x="23" y="50" width="50" height="575" as="geometry" />
         </mxCell>
         <mxCell id="jQtlUSDWuj2KYqsU9cgf-52" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;监督&lt;/h1&gt;&lt;p&gt;确保信息披露的真实性、准确性和完整性，并保护投资者的权益&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="jQtlUSDWuj2KYqsU9cgf-35">
-          <mxGeometry x="59.999999999999545" y="191" width="180" height="120" as="geometry" />
+          <mxGeometry x="53.999999999999545" y="300" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="jQtlUSDWuj2KYqsU9cgf-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jQtlUSDWuj2KYqsU9cgf-29" source="jQtlUSDWuj2KYqsU9cgf-36" target="jQtlUSDWuj2KYqsU9cgf-41">
           <mxGeometry relative="1" as="geometry" />
