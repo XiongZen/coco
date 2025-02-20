@@ -81,7 +81,12 @@
         </mxCell>
         <mxCell id="jQtlUSDWuj2KYqsU9cgf-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jQtlUSDWuj2KYqsU9cgf-30" source="jQtlUSDWuj2KYqsU9cgf-54">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="130" y="393" as="targetPoint" />
+            <mxPoint x="210" y="393" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jQtlUSDWuj2KYqsU9cgf-63" value="讨价还价" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jQtlUSDWuj2KYqsU9cgf-57">
+          <mxGeometry x="0.0603" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jQtlUSDWuj2KYqsU9cgf-54" value="机构投资者" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="jQtlUSDWuj2KYqsU9cgf-30">
@@ -166,6 +171,21 @@
         </mxCell>
         <mxCell id="jQtlUSDWuj2KYqsU9cgf-40" value="制定业务发展规划" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jQtlUSDWuj2KYqsU9cgf-37">
           <mxGeometry y="78" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="jQtlUSDWuj2KYqsU9cgf-64" value="一级市场&amp;amp;二级市场" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="920" width="290" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="jQtlUSDWuj2KYqsU9cgf-65" value="一级市场（primary Market）：发行市场，是新证券首次出售给公众的市场。" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="jQtlUSDWuj2KYqsU9cgf-64">
+          <mxGeometry y="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jQtlUSDWuj2KYqsU9cgf-66" value="首次公开募股（IPO）或增发新股都属于一级市场" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="jQtlUSDWuj2KYqsU9cgf-64">
+          <mxGeometry y="60" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jQtlUSDWuj2KYqsU9cgf-67" value="认购新股，机构和个人都可以参与" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="jQtlUSDWuj2KYqsU9cgf-64">
+          <mxGeometry y="90" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jQtlUSDWuj2KYqsU9cgf-68" value="二级市场（Secondary Market）：投资者之间自由交易已发行的股票，交易所提供流动性，价格由供需决定" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="jQtlUSDWuj2KYqsU9cgf-64">
+          <mxGeometry y="120" width="290" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
