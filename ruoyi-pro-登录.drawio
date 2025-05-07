@@ -13,6 +13,15 @@
         <mxCell id="SstSZEoakQB1WG8ZjcLN-3" value="2. 用户TOKEN在Redis 中存储的Key 是&amp;nbsp;CacheConstants.LOGIN_TOKEN_KEY + uuid" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="920" y="48" width="480" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="SstSZEoakQB1WG8ZjcLN-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SstSZEoakQB1WG8ZjcLN-4" target="SstSZEoakQB1WG8ZjcLN-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SstSZEoakQB1WG8ZjcLN-4" value="3. 最简单的实现方式就是将现有的登录账号替换uuid" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="920" y="90" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SstSZEoakQB1WG8ZjcLN-6" value="不行，验证码共用了该ID" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="990" y="200" width="160" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
