@@ -10,6 +10,9 @@
         <mxCell id="SstSZEoakQB1WG8ZjcLN-2" value="1.用户UUID在获取验证码的时候指定" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="920" y="10" width="220" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="SstSZEoakQB1WG8ZjcLN-3" value="2. 用户TOKEN在Redis 中存储的Key 是&amp;nbsp;CacheConstants.LOGIN_TOKEN_KEY + uuid" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="920" y="48" width="480" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
